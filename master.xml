@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Suite">
+    
+    <listeners>
+        <listener class-name="utils.ExtentReportManager"></listener>
+    </listeners>
+    
+    <test preserve-order="true" name="RedBusApp">
+        <classes>
+            <class name="testCases.SearchBuses"></class>
+        </classes>
+    </test>
+</suite>
